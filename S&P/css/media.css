@@ -1,0 +1,50 @@
+@media (max-width: 414px) {
+    body {
+        height: 100%;
+    }
+    .content-area {
+        padding: 32px 24px;
+        width: 100%;
+    }
+    .cart-block {   
+        width: 100%;
+    }
+    .card-cart img {
+        width: 96px;
+    }
+}
+@media (max-width: 744px) {
+    body {
+        flex-direction: column;
+        height: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .bottom {
+        display: none;
+    }
+    .nav {
+        border-bottom: solid 1px #21212110;
+        justify-content: center;
+        padding: 24px;
+    }
+    .nav-content {
+        flex-direction: row;
+    }
+    .logo {
+        width: 56px;
+    }
+    .burger-menu {
+        display: block;
+        position: fixed;
+        top: 29px;
+        right: 32px;
+    }
+    .cart-block {   
+        width: 100%;
+    }
+}
+@media (min-width: 1256px) {
+
+}
